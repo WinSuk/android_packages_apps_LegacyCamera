@@ -66,7 +66,7 @@ public class MosaicRendererSurfaceViewRenderer implements GLSurfaceView.Renderer
     }
 
     public void setReady() {
-        MosaicRenderer.ready();
+        MosaicRenderer.updateMatrix();
     }
 
     public void preprocess(float[] transformMatrix) {
